@@ -15,7 +15,7 @@ WATSONX_PROJECT_ID = "443a8ed4-48fd-4630-ab81-e5a5480dd375"  # Replace with your
 def initialize_llm():
     try:
         llm = WatsonxLLM(
-            model_id="ibm/granite-13b-instruct-v2",
+            model_id="ibm/granite-3-2-8b-instruct",
             url=WATSONX_URL,
             apikey=WATSONX_APIKEY,
             project_id=WATSONX_PROJECT_ID,
