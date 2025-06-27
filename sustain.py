@@ -5,9 +5,9 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
 # ✅ IBM Watsonx configuration - Replace with your actual credentials
-WATSONX_URL = ""  # Replace with your actual URL
-WATSONX_APIKEY = ""  # Replace with your actual API key
-WATSONX_PROJECT_ID = ""  # Replace with your actual project ID
+WATSONX_URL = "https://us-south.ml.cloud.ibm.com"  # Replace with your actual URL
+WATSONX_APIKEY = "v2pjUHPAm5HfLBGpVN5T1-DHjM3tbAVIzyQmEUhMS_0v"  # Replace with your actual API key
+WATSONX_PROJECT_ID = "443a8ed4-48fd-4630-ab81-e5a5480dd375"  # Replace with your actual project ID
 
 
 # Initialize IBM WatsonxLLM
